@@ -224,6 +224,10 @@ nav .navlinks li a{
     nav .navlinks.open{
         right: 0;
     }
+
+    .hero-text{
+        max-width: 390px;
+    }
 }
 
 @media(max-width: 768px){
