@@ -178,6 +178,7 @@ nav .navlinks li a{
         box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
         transition: 0.5s;
         padding: 25px 0;
+        display: none;
     }
     nav .navlinks li{
         display: block;
@@ -189,5 +190,19 @@ nav .navlinks li a{
     }
     nav .navlinks.open{
         right: 0;
+    }
+}
+
+@media(max-width: 768px){
+    .hero-container{
+        flex-direction: column;
+        padding-top: 2rem;
+    }
+    .hero-text{
+        padding: 40px 0px;
+    }
+    .hero-container .hero-pic{
+        width: 230px;
+        height: 230px;
     }
 }
