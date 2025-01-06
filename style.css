@@ -132,3 +132,8 @@ nav .navlinks li a{
     color: #007ced;
     font-size: 16px;
 }
+
+.hero-text h1{
+    color: #007ced;
+    font-size: 3rem;
+}
