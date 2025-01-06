@@ -51,3 +51,9 @@ header{
     cursor: pointer;
     text-align: center;
 }
+
+.logo .logo-text{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+}
