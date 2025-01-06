@@ -122,3 +122,13 @@ nav .navlinks li a{
     display: flex;
     flex-direction: column;
 }
+
+.hero-text h5{
+    color: #e5e5e5;
+    font-size: 16px;
+}
+
+.hero-text h5 span{
+    color: #007ced;
+    font-size: 16px;
+}
