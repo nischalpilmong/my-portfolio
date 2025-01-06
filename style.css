@@ -66,6 +66,7 @@ nav .toggle-btn{
     right: 3%;
     z-index: 5;
     cursor: pointer;
+    display: none;
 }
 
 nav .toggle-btn span{
