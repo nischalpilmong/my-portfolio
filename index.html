@@ -52,6 +52,14 @@
              </div>
           </div>
       </div>
-   </div>    
+   </div>
+   <script>
+    const togglebtn = document.querySelector(".toggle-btn");
+    const nav = document.querySelector(".navlinks");
+    togglebtn.addEventListener("click", function(){
+        this.classList.toggle("click");
+        nav.classList.toggle("open");
+    })
+   </script>  
 </body>
 </html>

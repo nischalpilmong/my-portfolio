@@ -178,6 +178,27 @@ nav .navlinks li a{
     nav .toggle-btn{
         display: initial;
     }
+
+    .click{
+        top: 45px;
+    }
+
+    .click span{
+        position: absolute;
+        margin-top: 12px;
+    }
+
+    .click span:first-child{
+        transform: rotate(-40deg);
+    }
+    .click span:nth-child(2){
+        opacity: 0;
+        margin: 0;
+    }
+    .click span:last-child{
+        transform: rotate(45deg);
+        top: 0;
+    }
     nav .navlinks{
         position: absolute;
         top: 110px;
@@ -190,7 +211,7 @@ nav .navlinks li a{
         box-shadow: 5px 13px 30px rgba(0, 0, 0, 0.1);
         transition: 0.5s;
         padding: 25px 0;
-        display: none;
+        /* display: none; */
     }
     nav .navlinks li{
         display: block;
