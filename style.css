@@ -167,6 +167,12 @@ nav .navlinks li a{
   margin-right: 10px;
   transition: 0.5s;
 }
+
+.hero-text .social-icons i:hover{
+    color: #007ced;
+    transform: rotate(360deg);
+}
+
 /* Responsive design & displaying navbar for small screen */
 @media(max-width: 930px){
     nav .toggle-btn{
