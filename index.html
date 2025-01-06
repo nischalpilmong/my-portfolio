@@ -35,7 +35,7 @@
                 <img src="./profile.jpg" alt="profile pic">
              </div>
              <div class="hero-text">
-                <h5>Hi I'm <span>Frontend Developer</span></h5>
+                <h5>Hi I'm <span class="input">Frontend Developer</span></h5>
                 <h1>Nischal Rai</h1>
                 <p>My name is Nischal Rai. I'm a frontend developer. I have worked in different projects. I have knowledge of different programming languages such as HTML, CSS, Javascript, React and others.</p>
                 <div class="btn-group">
@@ -61,6 +61,13 @@
     togglebtn.addEventListener("click", function(){
         this.classList.toggle("click");
         nav.classList.toggle("open");
+    });
+
+    var typed = new Typed(".input", {
+        strings: ["Frontend Developer", "Web Designer", "Web Developer"],
+        typeSpeed: 70,
+        backSpeed: 55,
+        loop: true
     })
    </script>  
 </body>
